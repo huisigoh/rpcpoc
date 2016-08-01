@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "files": [
+        "src/iClient.ts",
+        "src/iServer.ts",
+        "src/grpc/client.ts",
+        "src/grpc/server.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
