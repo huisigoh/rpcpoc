@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package request;
+
+message Requests {
+    repeated Request request = 1;
+}
+
+message Request {
+    Patient patient = 1;
+    message ConfigData {
+        string configId = 1;
+        string configVersion = 2;
+    }
+}
+
+message Patient {
+    bool isFiltercard = 1;
+
+}
+
+message Attribute {
+    
+}
+
+
+
+
