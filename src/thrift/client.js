@@ -1,8 +1,8 @@
 var thrift = require('thrift');
 // var ThriftTransports = require('thrift/transport');
 // var ThriftProtocols = require('thrift/protocol');
-var Calculator = require('../../gen-nodejs/Calculator');
-var ttypes = require('../../gen-nodejs/tutorial_types');
+var Calculator = require('./gen-nodejs/Calculator');
+var ttypes = require('./gen-nodejs/tutorial_types');
 
 transport = thrift.TBufferedTransport()
 protocol = thrift.TBinaryProtocol()
