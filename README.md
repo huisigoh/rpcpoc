@@ -13,3 +13,8 @@ golang: https://golang.org/dl/
 Apache Thrift Compiler download: https://thrift.apache.org/download
 
 Apache Thrift Installation guide: https://thrift.apache.org/docs/install/windows
+
+
+Cap'n Proto: https://github.com/sandstorm-io/capnproto
+
+Cap'n Proto node wrapper: https://github.com/kentonv/node-capnp
