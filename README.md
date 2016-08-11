@@ -6,6 +6,9 @@ protobuf: https://github.com/google/protobuf
 
 protobuf prebuilt compiler: https://github.com/google/protobuf/releases
 
+protobuf language def (proto3) : https://developers.google.com/protocol-buffers/docs/proto3
+
+
 
 golang: https://golang.org/dl/
 
