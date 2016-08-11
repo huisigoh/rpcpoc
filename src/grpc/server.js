@@ -2,6 +2,7 @@ var PROTO_PATH = __dirname + '/helloworld.proto';
 
 var grpc = require('grpc');
 var hello_proto = grpc.load(PROTO_PATH).helloworld;
+var calc_proto = grpc.load(PROTO_CALC_PATH).calculator;
 
 /**
  * Implements the SayHello RPC method.

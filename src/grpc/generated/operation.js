@@ -5,12 +5,12 @@
  */
 // GENERATED CODE -- DO NOT EDIT!
 
-goog.provide('proto.Operation');
+goog.provide('proto.calculator.Operation');
 
 /**
  * @enum {number}
  */
-proto.Operation = {
+proto.calculator.Operation = {
   ADD: 0,
   SUBTRACT: 1,
   MULTIPLY: 2,
