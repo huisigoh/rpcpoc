@@ -1,5 +1,7 @@
 syntax="proto3";
 
+package calculator;
+
 enum Operation {
   ADD = 0;
   SUBTRACT = 1;
@@ -13,10 +15,6 @@ message Work {
     int32 num2 = 3;
     Operation op = 4;
     string comment = 5;
-}
-
-message logid {
-    int32 id = 1;
 }
 
 message Result {

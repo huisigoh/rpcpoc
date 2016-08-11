@@ -5,7 +5,7 @@
  */
 // GENERATED CODE -- DO NOT EDIT!
 
-goog.provide('proto.Result');
+goog.provide('proto.calculator.Result');
 
 goog.require('jspb.Message');
 
@@ -20,12 +20,12 @@ goog.require('jspb.Message');
  * @extends {jspb.Message}
  * @constructor
  */
-proto.Result = function(opt_data) {
+proto.calculator.Result = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
-goog.inherits(proto.Result, jspb.Message);
+goog.inherits(proto.calculator.Result, jspb.Message);
 if (goog.DEBUG && !COMPILED) {
-  proto.Result.displayName = 'proto.Result';
+  proto.calculator.Result.displayName = 'proto.calculator.Result';
 }
 
 
@@ -40,8 +40,8 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
  *     for transitional soy proto support: http://goto/soy-param-migration
  * @return {!Object}
  */
-proto.Result.prototype.toObject = function(opt_includeInstance) {
-  return proto.Result.toObject(opt_includeInstance, this);
+proto.calculator.Result.prototype.toObject = function(opt_includeInstance) {
+  return proto.calculator.Result.toObject(opt_includeInstance, this);
 };
 
 
@@ -50,10 +50,10 @@ proto.Result.prototype.toObject = function(opt_includeInstance) {
  * @param {boolean|undefined} includeInstance Whether to include the JSPB
  *     instance for transitional soy proto support:
  *     http://goto/soy-param-migration
- * @param {!proto.Result} msg The msg instance to transform.
+ * @param {!proto.calculator.Result} msg The msg instance to transform.
  * @return {!Object}
  */
-proto.Result.toObject = function(includeInstance, msg) {
+proto.calculator.Result.toObject = function(includeInstance, msg) {
   var f, obj = {
     res: msg.getRes()
   };
@@ -68,10 +68,10 @@ proto.Result.toObject = function(includeInstance, msg) {
 
 /**
  * Creates a deep clone of this proto. No data is shared with the original.
- * @return {!proto.Result} The clone.
+ * @return {!proto.calculator.Result} The clone.
  */
-proto.Result.prototype.cloneMessage = function() {
-  return /** @type {!proto.Result} */ (jspb.Message.cloneMessage(this));
+proto.calculator.Result.prototype.cloneMessage = function() {
+  return /** @type {!proto.calculator.Result} */ (jspb.Message.cloneMessage(this));
 };
 
 
@@ -79,13 +79,13 @@ proto.Result.prototype.cloneMessage = function() {
  * optional int32 res = 1;
  * @return {number}
  */
-proto.Result.prototype.getRes = function() {
+proto.calculator.Result.prototype.getRes = function() {
   return /** @type {number} */ (jspb.Message.getFieldProto3(this, 1, 0));
 };
 
 
 /** @param {number} value  */
-proto.Result.prototype.setRes = function(value) {
+proto.calculator.Result.prototype.setRes = function(value) {
   jspb.Message.setField(this, 1, value);
 };
 
