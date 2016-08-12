@@ -20,4 +20,6 @@ Apache Thrift Installation guide: https://thrift.apache.org/docs/install/windows
 
 Cap'n Proto: https://github.com/sandstorm-io/capnproto
 
+Cap'n Proto Installation: https://capnproto.org/install.html
+
 Cap'n Proto node wrapper: https://github.com/kentonv/node-capnp
