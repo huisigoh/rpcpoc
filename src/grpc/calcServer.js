@@ -6,9 +6,30 @@ var grpc = require('grpc');
 var calc_proto = grpc.load(PROTO_CALC_PATH).calculator;
 
 function calculate (call, callback){
-    console.log("Calculating: " + call)
+    console.log("Calculating: " + JSON.stringify(call.request))
 
-    callback(null, {res: 32});
+    var result;
+
+    console.log("test:" + calc_proto.Operation.ADD + "  " + call.request.op);
+    
+    switch(call.request.op){
+      case "ADD": 
+        result = call.request.num1 + call.request.num2;
+        break;
+      case "SUBTRACT": 
+        result = call.request.num1 - call.request.num2;
+        break;
+      case "MULTIPLY": 
+        result = call.request.num1 * call.request.num2;
+        break;
+      case "DIVIDE": 
+        result = call.request.num1 / call.request.num2;
+        break;
+      default:
+        result = -1;
+    }
+
+    callback(null, {res: result});
 }
 
 /**
