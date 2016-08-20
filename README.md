@@ -17,6 +17,9 @@ Apache Thrift Compiler download: https://thrift.apache.org/download
 
 Apache Thrift Installation guide: https://thrift.apache.org/docs/install/windows
 
+Apache Thrift - The Missing Guide : http://diwakergupta.github.io/thrift-missing-guide/
+
+
 
 Cap'n Proto: https://github.com/sandstorm-io/capnproto
 
