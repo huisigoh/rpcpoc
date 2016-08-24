@@ -21,13 +21,7 @@ message Result {
     int32 res = 1;
 }
 
-//do protobuf exceptions exist?
-
 service Calculator {
-    //rpc Ping() returns () {};
-
     rpc Calculate (Work) returns (Result) {};
-
-    //oneway thrift equiv? 
 
 } 

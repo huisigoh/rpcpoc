@@ -9,8 +9,6 @@ function calculate (call, callback){
     console.log("Calculating: " + JSON.stringify(call.request))
 
     var result;
-
-    console.log("test:" + calc_proto.Operation.ADD + "  " + call.request.op);
     
     switch(call.request.op){
       case "ADD": 
